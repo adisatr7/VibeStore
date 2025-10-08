@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.VibeStore.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#29bf12</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_splash</item>
-        <item name="postSplashScreenTheme">@style/Theme.VibeStore</item>
+    <style name="Theme.InnotechStore.Splash." parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.InnotechStore</item>
+    </style>
+
+    <style name="Theme.InnotechStore.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.InnotechStore</item>
     </style>
 </resources>
